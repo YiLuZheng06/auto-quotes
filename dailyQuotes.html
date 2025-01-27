@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quotes</title>
+    <link rel="stylesheet" href="quoteStyle.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="getQuotes.js"></script>
+</head>
+<body onload="init()">
+    <div id="banner">
+    </div>
+    
+    <h1 class="center"> Quote of the Day: </h1>
+    <div class="container">
+        <p data-aos="fade-up" class="center" id="quote"></p>
+    </div>
+    
+    <a href="/">Log out</a>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
