@@ -19,7 +19,7 @@ html, body {
 }
 
 #banner {
-    background-image: url("totoro.webp");
+    background-image: url('image/totoro.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,4 +47,14 @@ html, body {
     width: 500px;
     padding:50px;
     font-size: 18pt;
+}
+
+#logout {
+    width:100px;
+    height:70px;
+    border-radius:5px;
+    padding:5px;
+    background-color: white;
+    color:black;
+    text-decoration: none;
 }

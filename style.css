@@ -9,7 +9,7 @@ body{
 }
 
 .background {
-    background-image: url("night.gif");
+    background-image: url('image/night.gif');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
